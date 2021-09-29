@@ -1,0 +1,25 @@
+{
+  "name": "fm-order-summary-component-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FocusCookie/fm-order-summary-component-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FocusCookie/fm-order-summary-component-main/issues"
+  },
+  "homepage": "https://github.com/FocusCookie/fm-order-summary-component-main#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
