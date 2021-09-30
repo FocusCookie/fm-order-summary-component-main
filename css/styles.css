@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btn {
-  @apply bg-purple-500 text-purple-50 font-bold p-4 rounded;
+  @apply bg-yellow-500 text-purple-50 font-bold p-4 rounded;
 }
