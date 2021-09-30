@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-screen">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,30 +15,60 @@
 
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body>
-    <section>
+  <body
+    class="
+      bg-waves
+      bg-fm_pale_blue
+      h-full
+      flex
+      items-center
+      justify-center
+      font-fm
+    "
+  >
+    <section
+      class="bg-white w-80 rounded-fm bg-white shadow-fm overflow-hidden"
+    >
       <div
+        class="h-40 bg-music bg-cover"
         role="img"
         alt="an illustration of a person is listining music on the smartphone."
       ></div>
-      <div>
-        <h1>Order Summary</h1>
-        <p>
+      <div class="p-6">
+        <h1 class="text-center text-2xl text-fm_dark_blue font-black">
+          Order Summary
+        </h1>
+        <p class="mt-4 text-base text-fm_desaturated_blue text-center">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
 
-        <div>
+        <div
+          class="
+            mt-4
+            rounded-fm-btn
+            bg-fm_very_pale_blue
+            overflow-hidden
+            flex flex-row
+            justify-between
+            items-center
+            p-4
+          "
+        >
           <img src="./images/icon-music.svg" alt="Music Note Icon" />
-          <div>
-            <h3>Annual Plan</h3>
-            <p>$59.99/year</p>
+          <div class="text-sm">
+            <h3 class="font-bold text-fm_dark_blue">Annual Plan</h3>
+            <p class="text-fm_desaturated_blue">$59.99/year</p>
           </div>
-          <a href="#change">Change</a>
+          <a
+            class="text-xs font-bold text-fm_bright_blue underline"
+            href="#change"
+            >Change</a
+          >
         </div>
 
-        <a href="#proceed" class="btn">Proceed to Payment</a>
-        <a href="#cancel" class="btn-red">Cancel Order</a>
+        <a href="#proceed" class="btn mt-6">Proceed to Payment</a>
+        <a href="#cancel" class="btn-text mt-4">Cancel Order</a>
       </div>
     </section>
   </body>

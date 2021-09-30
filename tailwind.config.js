@@ -1,9 +1,27 @@
 const plugins = require("tailwindcss/plugin");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      fm_pale_blue: "var(--fm-pale-blue)",
+      fm_bright_blue: "var(--fm-bright-blue)",
+      fm_very_pale_blue: "var(--fm-very-pale-blue)",
+      fm_desaturated_blue: "var(--fm-desaturated-blue)",
+      fm_dark_blue: "var(--fm-dark-blue)",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      red: colors.red,
+      yellow: colors.amber,
+      blue: colors.blue,
+      purple: colors.purple,
+    },
+    fontFamily: {
+      fm: ["Red Hat Display", "ui-sans-serif", "system-ui"],
+    },
     extend: {},
   },
   variants: {

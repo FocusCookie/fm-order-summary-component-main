@@ -1,7 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:400,500,600,700,900&display=swap");
+
+:root {
+  --fm-pale-blue: hsl(225, 100%, 94%);
+  --fm-bright-blue: hsl(245, 75%, 52%);
+  --fm-very-pale-blue: hsl(225, 100%, 98%);
+  --fm-desaturated-blue: hsl(224, 23%, 55%);
+  --fm-dark-blue: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .btn {
-  @apply bg-yellow-500 text-purple-50 font-bold p-4 rounded;
+  @apply bg-fm_bright_blue text-white font-bold p-3 rounded-fm-btn block text-center;
+  box-shadow: 0px 20px 20px hsl(245, 75%, 52%, 0.19);
+}
+.btn-text {
+  @apply text-fm_desaturated_blue
+  font-bold
+  p-0
+  rounded
+  block
+  text-center;
+}
+
+.rounded-fm {
+  border-radius: 1.25rem;
+}
+.rounded-fm-btn {
+  border-radius: 0.6875rem;
+}
+.shadow-fm {
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.bg-waves {
+  background-repeat: no-repeat;
+  background-image: url("./images/pattern-background-mobile.svg");
+}
+.bg-music {
+  background-repeat: no-repeat;
+  background-image: url("./images/illustration-hero.svg");
 }
