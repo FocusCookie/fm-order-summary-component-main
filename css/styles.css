@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:400,500,600,700,900&display=swap");
-
 :root {
   --fm-pale-blue: hsl(225, 100%, 94%);
   --fm-bright-blue: hsl(245, 75%, 52%);
+  --fm-bright-blue-hover: hsla(245, 83%, 68%, 1);
   --fm-very-pale-blue: hsl(225, 100%, 98%);
   --fm-desaturated-blue: hsl(224, 23%, 55%);
   --fm-dark-blue: hsl(223, 47%, 23%);
@@ -43,4 +42,14 @@
 .bg-music {
   background-repeat: no-repeat;
   background-image: url("./images/illustration-hero.svg");
+}
+
+@media only screen and (min-width: 640px) {
+  .bg-waves {
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+
+  .fm-width {
+    width: 28.125rem;
+  }
 }

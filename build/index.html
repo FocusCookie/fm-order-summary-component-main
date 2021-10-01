@@ -12,6 +12,10 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,600,700,900"
+    />
 
     <title>Frontend Mentor | Order summary card</title>
   </head>
@@ -28,15 +32,25 @@
     "
   >
     <section
-      class="bg-white w-80 rounded-fm bg-white shadow-fm overflow-hidden"
+      class="
+        bg-white
+        w-80
+        fm-width
+        rounded-fm
+        bg-white
+        shadow-fm
+        overflow-hidden
+      "
     >
       <div
-        class="h-40 bg-music bg-cover"
+        class="h-40 sm:h-56 bg-music bg-cover"
         role="img"
         alt="an illustration of a person is listining music on the smartphone."
       ></div>
-      <div class="p-6">
-        <h1 class="text-center text-2xl text-fm_dark_blue font-black">
+      <div class="p-6 sm:p-12">
+        <h1
+          class="text-center text-2xl text-fm_dark_blue font-black sm:text-3xl"
+        >
           Order Summary
         </h1>
         <p class="mt-4 text-base text-fm_desaturated_blue text-center">
@@ -54,6 +68,7 @@
             justify-between
             items-center
             p-4
+            sm:h-24 sm:mt-5
           "
         >
           <img src="./images/icon-music.svg" alt="Music Note Icon" />
@@ -62,14 +77,26 @@
             <p class="text-fm_desaturated_blue">$59.99/year</p>
           </div>
           <a
-            class="text-xs font-bold text-fm_bright_blue underline"
+            class="
+              text-xs
+              font-bold
+              text-fm_bright_blue
+              underline
+              hover:text-fm_bright_blue_hover hover:no-underline
+            "
             href="#change"
             >Change</a
           >
         </div>
 
-        <a href="#proceed" class="btn mt-6">Proceed to Payment</a>
-        <a href="#cancel" class="btn-text mt-4">Cancel Order</a>
+        <a
+          href="#proceed"
+          class="btn hover:bg-fm_bright_blue_hover mt-6 sm:mt-8"
+          >Proceed to Payment</a
+        >
+        <a href="#cancel" class="btn-text hover:text-fm_dark_blue mt-4 sm:mt-8"
+          >Cancel Order</a
+        >
       </div>
     </section>
   </body>
