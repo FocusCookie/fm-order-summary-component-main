@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch css --ext css --watch tailwind.config.js --exec 'npm run build'",
-    "build": "postcss css/styles.css -o build/styles.css"
+    "build": "postcss css/styles.css -o docs/styles.css"
   },
   "repository": {
     "type": "git",
